@@ -5,15 +5,11 @@
         //this will let me access the drawing context
         const ctx = canvas.getContext('2d');
 
+        ctx.fillStyle = 'Purple'
+
         ctx.beginPath();
         ctx.moveTo(75, 25);
         ctx.lineTo(25, 150);
         ctx.lineTo(125, 150);
-
-        const img = new Image();
-        img.src = 'https://images.app.goo.gl/ZdCkkymqDNpu3Tr59'
-        img.onload = function() {
-            const pattern = ctx.createPattern(img, 'repeat');
-            ctx.fillStyle = pattern
-        }
+        ctx.fill();
     }
