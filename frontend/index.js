@@ -10,14 +10,14 @@
         ctx.fillStyle = 'Purple'
 
         ctx.beginPath();
-        ctx.moveTo(75, 0);
-        ctx.lineTo(0, 150);
-        ctx.lineTo(150, 150);
+        ctx.moveTo(250, 0);
+        ctx.lineTo(0, 500);
+        ctx.lineTo(500, 500);
         ctx.fill();
 
         // row 1 circle shape
 
-        ctx.fillStyle = 'White'
+        ctx.fillStyle = 'Black'
 
         ctx.beginPath()
         ctx.arc(75, 35, 10, 0, Math.PI * 2, true);
