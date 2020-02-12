@@ -1,4 +1,5 @@
     //ok but I need to get rid of this script from HTML
+    // peg color #FF8552
     function draw() {
         const canvas = document.getElementById('tutorial');
 
@@ -7,7 +8,7 @@
 
         // triangle shape 
 
-        ctx.fillStyle = 'Purple'
+        ctx.fillStyle = '#39393A'
 
         ctx.beginPath();
         ctx.moveTo(250, 0);
@@ -17,7 +18,7 @@
 
         // row 1 circle shape
 
-        ctx.fillStyle = 'Black'
+        ctx.fillStyle = '#E6E6E6'
 
         ctx.beginPath()
         ctx.arc(75, 35, 10, 0, Math.PI * 2, true);
