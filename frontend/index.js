@@ -21,48 +21,69 @@
         ctx.fillStyle = '#E6E6E6'
 
         ctx.beginPath()
-        ctx.arc(75, 35, 10, 0, Math.PI * 2, true);
+        ctx.arc(250, 75, 25, 0, Math.PI * 2, true);
         ctx.fill();
 
         // row 2 circle shapes
 
         ctx.beginPath()
-        ctx.arc(60, 70, 10, 0, Math.PI * 2, true);
+        ctx.arc(212, 150, 25, 0, Math.PI * 2, true);
         ctx.fill();
 
         ctx.beginPath()
-        ctx.arc(90, 70, 10, 0, Math.PI * 2, true);
+        ctx.arc(288, 150, 25, 0, Math.PI * 2, true);
         ctx.fill();
 
         //row 3 circle shapes
 
         ctx.beginPath()
-        ctx.arc(50, 105, 10, 0, Math.PI * 2, true);
+        ctx.arc(174, 225, 25, 0, Math.PI * 2, true);
         ctx.fill();
 
         ctx.beginPath()
-        ctx.arc(75, 105, 10, 0, Math.PI * 2, true);
+        ctx.arc(250, 225, 25, 0, Math.PI * 2, true);
         ctx.fill();
 
         ctx.beginPath()
-        ctx.arc(100, 105, 10, 0, Math.PI * 2, true);
+        ctx.arc(326, 225, 25, 0, Math.PI * 2, true);
         ctx.fill();
         
         // row 4 circle shapes
 
         ctx.beginPath()
-        ctx.arc(30, 135, 10, 0, Math.PI * 2, true);
+        ctx.arc(136, 300, 25, 0, Math.PI * 2, true);
         ctx.fill();
 
         ctx.beginPath()
-        ctx.arc(60, 135, 10, 0, Math.PI * 2, true);
+        ctx.arc(210, 300, 25, 0, Math.PI * 2, true);
         ctx.fill();
 
         ctx.beginPath()
-        ctx.arc(90, 135, 10, 0, Math.PI * 2, true);
+        ctx.arc(290, 300, 25, 0, Math.PI * 2, true);
         ctx.fill();
 
         ctx.beginPath()
-        ctx.arc(120, 135, 10, 0, Math.PI * 2, true);
+        ctx.arc(364, 300, 25, 0, Math.PI * 2, true);
+        ctx.fill();
+
+        // row 5 circles
+        ctx.beginPath()
+        ctx.arc(98, 375, 25, 0, Math.PI * 2, true);
+        ctx.fill();
+
+        ctx.beginPath()
+        ctx.arc(174, 375, 25, 0, Math.PI * 2, true);
+        ctx.fill();
+
+        ctx.beginPath()
+        ctx.arc(250, 375, 25, 0, Math.PI * 2, true);
+        ctx.fill();
+
+        ctx.beginPath()
+        ctx.arc(326, 375, 25, 0, Math.PI * 2, true);
+        ctx.fill();
+
+        ctx.beginPath()
+        ctx.arc(402, 375, 25, 0, Math.PI * 2, true);
         ctx.fill();
     }
