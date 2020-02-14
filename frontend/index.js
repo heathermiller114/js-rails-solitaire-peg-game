@@ -12,8 +12,8 @@
 
         ctx.beginPath();
         ctx.moveTo(250, 0);
-        ctx.lineTo(0, 500);
-        ctx.lineTo(500, 500);
+        ctx.lineTo(0, 435);
+        ctx.lineTo(500, 435);
         ctx.fill();
 
         // row 1 circle shape
